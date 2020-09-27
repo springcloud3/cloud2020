@@ -1,0 +1,17 @@
+###consul服务端口号
+server:
+  port: 8006
+
+spring:
+  application:
+    name: consul-provider-payment
+####consul注册中心地址
+  cloud:
+    consul:
+#      host: localhost
+      host: 10.194.18.20
+      port: 8500
+      discovery:
+        #hostname: 127.0.0.1
+        service-name: ${spring.application.name}
+        health-check-url: http://10.128.86.207:8006/actuator/health
