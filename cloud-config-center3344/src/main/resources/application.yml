@@ -12,6 +12,7 @@ spring:
         ####搜索目录
           search-paths:
             - cloud3344
+#            1
       ####读取分支
       label: master
 #rabbitmq相关配置
