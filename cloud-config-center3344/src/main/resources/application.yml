@@ -14,7 +14,7 @@ spring:
             - cloud3344
 #            1
       ####读取分支
-      label: master
+      label: mastertest
 #rabbitmq相关配置
 #rabbitmq:
 #    host: localhost
